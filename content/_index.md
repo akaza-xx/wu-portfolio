@@ -18,10 +18,10 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "data warehouses"
+          - "data models"
+          - "analytics pipelines"
+          - "data-driven insights"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -84,46 +84,48 @@ sections:
       title: "Tech Stack"
       subtitle: "Technologies I use to build things"
       categories:
-        - name: Languages
+        - name: 数据仓库
           items:
-            - name: TypeScript
-              icon: devicon/typescript
-            - name: JavaScript
-              icon: devicon/javascript
-            - name: Python
-              icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
+            - name: Hive
+              icon: devicon/apache
+            - name: Spark
+              icon: devicon/apachespark
+            - name: Flink
+              icon: devicon/scala
+            - name: Kafka
+              icon: devicon/apachekafka
+        - name: 数据建模
           items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
-              icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
-        - name: Backend
-          items:
-            - name: Node.js
-              icon: devicon/nodejs
-            - name: Express
-              icon: devicon/express
+            - name: dbt
+              icon: devicon/microsoftsqlserver
+            - name: MySQL
+              icon: devicon/mysql
             - name: PostgreSQL
               icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
+            - name: ClickHouse
+              icon: devicon/clickhouse
+        - name: 数据分析
           items:
-            - name: Docker
-              icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices
-            - name: GitHub Actions
-              icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+            - name: Python
+              icon: devicon/python
+            - name: Pandas
+              icon: devicon/pandas
+            - name: NumPy
+              icon: devicon/numpy
+            - name: R
+              icon: devicon/r
+            - name: Excel
+              icon: devicon/jupyter
+        - name: 工具 & 平台
+          items:
+            - name: Go
+              icon: devicon/go
+            - name: Airflow
+              icon: devicon/apacheairflow
+            - name: Git
+              icon: devicon/git
+            - name: Linux
+              icon: devicon/linux
     design:
       style: grid
       show_levels: false
@@ -218,7 +220,7 @@ sections:
       text: |-
         I'm always interested in hearing about new projects and opportunities.
         Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+      email: akazan@yeah.net
       autolink: true
     design:
       columns: '1'
