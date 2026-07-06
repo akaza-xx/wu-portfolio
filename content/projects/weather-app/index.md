@@ -15,10 +15,10 @@ tech_stack:
   - Tailwind CSS
   - Vite
 links:
-  - icon: brands/github
+  - type: code
     url: https://github.com/alexjohnson/weather-now
     label: Code
-  - icon: hero/link
+  - type: site
     url: https://weathernow-demo.netlify.app
     label: Demo
 featured: false

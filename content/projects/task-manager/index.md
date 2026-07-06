@@ -15,10 +15,10 @@ tech_stack:
   - WebSockets
   - Tailwind CSS
 links:
-  - icon: brands/github
+  - type: code
     url: https://github.com/alexjohnson/taskflow
     label: Code
-  - icon: hero/link
+  - type: site
     url: https://taskflow-demo.example.com
     label: Demo
 featured: true
