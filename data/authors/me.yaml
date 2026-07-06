@@ -79,8 +79,6 @@ skills:
         level: 5
       - label: sql
         level: 5
-      - label: Python
-        level: 4
   - name: DevOps
     items:
       - label: Docker
