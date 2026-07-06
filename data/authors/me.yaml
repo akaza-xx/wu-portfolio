@@ -2,14 +2,14 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: 黎楼
+  given: 黎楼
+  family: 黎楼
 postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+role: 数据开发工程师
+email: akazan@yeah.net
 bio: |
   Full-stack developer with 5+ years of experience building scalable web applications.
   Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
@@ -30,16 +30,14 @@ links:
     url: https://x.com/alexjohnson
 
 interests:
+  - Data Science
   - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
 
 education:
   - degree: B.S. Computer Science
     institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+    start: 2012-09-01
+    end: 2016-06-01
     summary: |
       Focus on software engineering and distributed systems.
       Senior project on distributed caching systems.
@@ -49,14 +47,14 @@ education:
       icon: brands/github
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+  - role: Data Warehouse Engineer
+    org: 保密
+    start: 2021-01-01
     summary: |
       Lead development of microservices architecture serving 1M+ users.
       Improved API response time by 40% through optimization.
       Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
+  - role: Data Warehouse Engineer
     org: Startup Inc
     start: 2021-06-01
     end: 2022-12-31
@@ -75,11 +73,11 @@ experience:
 skills:
   - name: Development
     items:
-      - label: TypeScript
+      - label: Go
         level: 5
-      - label: React
+      - label: Python
         level: 5
-      - label: Node.js
+      - label: sql
         level: 5
       - label: Python
         level: 4
